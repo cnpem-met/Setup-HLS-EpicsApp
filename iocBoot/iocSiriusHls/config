@@ -1,0 +1,2 @@
+epicsEnvSet("IP_HLS","10.28.86.16")
+epicsEnvSet("PORT_HLS","5002")

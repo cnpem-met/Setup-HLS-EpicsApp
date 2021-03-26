@@ -1,0 +1,8 @@
+epicsEnvSet("IOC","iocSiriusHls")
+epicsEnvSet("TOP","/usr/apps/siriushls/SiriusHls")
+epicsEnvSet("EPICS_BASE","/usr/local/epics/base")
+epicsEnvSet("SUPPORT","/usr/local/epics/synApps/support")
+epicsEnvSet("ASYN","/usr/local/epics/synApps/support/asyn-R4-33")
+epicsEnvSet("STREAM","/usr/local/epics/synApps/support/stream-R2-7-7c")
+epicsEnvSet("CALC","/usr/local/epics/synApps/support/calc-R3-7-1")
+

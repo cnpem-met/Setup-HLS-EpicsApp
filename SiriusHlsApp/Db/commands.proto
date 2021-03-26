@@ -1,0 +1,14 @@
+#InTerminator = CR LF;
+InTerminator = CR;
+OutTerminator = CR;
+ExtraInput = Ignore;
+
+#locktimeout = 10000;
+#replytimeout = 10000;
+#readtimeout  = 10000;
+
+vv=":";
+
+get_level	{out "L";	in "%#f";}
+
+get_level_raw	{out "L1";	in "%#f";}

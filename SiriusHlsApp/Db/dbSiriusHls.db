@@ -1,0 +1,19 @@
+#dbSiriusHls.db
+#Setup HLS1 Sensor 
+#
+#
+#Parameters:
+#% macro, BL, Beamline prefix
+#% macro, M, Device name
+#% macro, PORT, Port Name 
+record(ai,"$(BL):get_level") {
+  field (DTYP, "stream")
+  field (INP, "@commands.proto get_level() ${PORT}")
+  field (SCAN, "10 second")
+} 
+
+record(ai,"$(BL):get_level_raw") {
+  field (DTYP, "stream")
+  field (INP, "@commands.proto get_level_raw() ${PORT}")
+  field (SCAN, "10 second")
+}
