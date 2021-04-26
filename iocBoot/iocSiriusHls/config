@@ -1,2 +1,3 @@
-epicsEnvSet("IP_HLS","10.28.86.16")
+epicsEnvSet("IP_HLS","${IOC_IP}")
 epicsEnvSet("PORT_HLS","5002")
+epicsEnvSet("BL","${IOC_PREFIX}")

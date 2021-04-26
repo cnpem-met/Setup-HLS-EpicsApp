@@ -6,7 +6,6 @@
 < envPaths
 < config
 
-epicsEnvSet("BL","${EPICS_HOSTNAME}")
 epicsEnvSet("STREAM_PROTOCOL_PATH", "$(TOP)/db")
 
 cd "${TOP}"

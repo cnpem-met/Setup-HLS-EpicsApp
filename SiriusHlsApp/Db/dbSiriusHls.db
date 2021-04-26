@@ -9,11 +9,11 @@
 record(ai,"$(BL):get_level") {
   field (DTYP, "stream")
   field (INP, "@commands.proto get_level() ${PORT}")
-  field (SCAN, "10 second")
+  field (SCAN, "1 second")
 } 
 
 record(ai,"$(BL):get_level_raw") {
   field (DTYP, "stream")
   field (INP, "@commands.proto get_level_raw() ${PORT}")
-  field (SCAN, "10 second")
+  field (SCAN, "1 second")
 }

@@ -1,5 +1,5 @@
 epicsEnvSet("IOC","iocSiriusHls")
-epicsEnvSet("TOP","/usr/apps/siriushls/SiriusHls")
+epicsEnvSet("TOP","/usr/apps/${IOC_NAME}")
 epicsEnvSet("EPICS_BASE","/usr/local/epics/base")
 epicsEnvSet("SUPPORT","/usr/local/epics/synApps/support")
 epicsEnvSet("ASYN","/usr/local/epics/synApps/support/asyn-R4-33")
