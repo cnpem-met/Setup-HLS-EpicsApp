@@ -6,14 +6,20 @@
 #% macro, BL, Beamline prefix
 #% macro, M, Device name
 #% macro, PORT, Port Name 
-record(ai,"$(BL):get_level") {
+record(ai,"$(BL):level") {
   field (DTYP, "stream")
   field (INP, "@commands.proto get_level() ${PORT}")
-  field (SCAN, "1 second")
+  field (SCAN, "2 second")
 } 
 
-record(ai,"$(BL):get_level_raw") {
+record(ai,"$(BL):level_raw") {
   field (DTYP, "stream")
   field (INP, "@commands.proto get_level_raw() ${PORT}")
-  field (SCAN, "1 second")
+  field (SCAN, "2 second")
 }
+
+record(ai,"$(BL):temp") {
+  field (DTYP, "stream")
+  field (INP, "@commands.proto get_temp() ${PORT}")
+  field (SCAN, "2 second")
+} 

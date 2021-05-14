@@ -10,5 +10,5 @@ ExtraInput = Ignore;
 vv=":";
 
 get_level	{out "L";	in "%#f";}
-
 get_level_raw	{out "L1";	in "%#f";}
+get_temp	{out "T";	in "%#f";}
